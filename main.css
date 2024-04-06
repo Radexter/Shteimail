@@ -1,10 +1,10 @@
-header{
+header {
     background-color: rgb(21, 108, 167);
     text-align: center;
     padding: 10px;
 }
 
-body{
+body {
     background-color: #f0f2f5;
 }
 
@@ -18,13 +18,13 @@ body{
     margin-bottom: 20px;
 }
 
-.education, .projects{
+.education, .projects {
     padding: 20px;
     background-color: white;
     margin-bottom: 10px;
     border-radius: 20px;
 }
-.carousel{
+.carousel {
     display: flex;
     border-radius: 10px;
     overflow-x: scroll;
@@ -33,7 +33,7 @@ body{
     margin-bottom: 20px;
     justify-content: space-between;
 }
-.carousel-item{
+.carousel-item {
     flex: 0 0 auto;
     width: 100%;
     scroll-snap-align: start;
@@ -45,7 +45,7 @@ body{
     flex-direction: row;
     align-items: flex-start;
 }
-.carousel-item img{
+.carousel-item img {
     margin: 5%;
     width: 25vw;
     height: 40vh;
@@ -60,6 +60,6 @@ button {
     border: none;
     color: white
 }
-button:hover{
+button:hover {
     background-color: rgb(7, 76, 122);
 }
