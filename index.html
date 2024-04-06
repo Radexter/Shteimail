@@ -33,18 +33,27 @@
                 <img src="Scrath.jpg">
                 <div class="Text">
                 <p>Scrath</p>
-                <p>Minerraft</p>
+                <p>Minekraft</p>
                 </div>
             </div>
             <div class="carousel-item">
-            <p>Scrath</p>
+                <h2>Thunkable</h2>
         </div>
             <div class="carousel-item">
-            <p>Scrath</p>
+                <h2>Construct</h2>
         </div>
         </div>
+        <button class="prev">Назад</button>
+        <button class="next">Вперёд</button>
+        <script>
+            document.getElementById('prev').addEventListener('click', () => {
+            document.querySelector('.carousel'),scrollBy(-1000, 0);
+        })
 
-        
+        document.getElementById('next').addEventListener('click', () => {
+            document.querySelector('.carousel'),scrollBy(1000, 0);
+        })
+        </script>
 </body>
 </div>
 </html>
