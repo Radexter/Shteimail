@@ -52,3 +52,6 @@ body{
     border-radius: 20px;
     object-fit: cover;
 }
+button {
+    padding: 10px 20px;
+}
