@@ -18,7 +18,13 @@ body{
     margin-bottom: 20px;
 }
 
-.education, .projects{
+.profile img {
+    width: 150px;
+    height:180px;
+    border-radius: 80%;
+}
+
+.education, .projects, .contact{
     padding: 20px;
     background-color: white;
     margin-bottom: 10px;
@@ -54,4 +60,5 @@ body{
 }
 button {
     padding: 10px 20px;
+    margin-bottom: 20px;
 }
